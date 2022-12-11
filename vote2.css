@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    }
+    
+    h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+    }
+    
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .kandidat {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .kandidat img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    }
+    
+    .kandidat h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    .kandidat button {
+    border: none;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    }
+    
+    .kandidat button:hover {
+    background-color: #0062cc;
+    }

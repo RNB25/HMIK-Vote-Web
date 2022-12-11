@@ -1,0 +1,52 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.boxcard{
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    display:flex;
+    padding: 30px 50px 0 50px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+@media only screen and (min-width: 879px) {
+    .navbar{
+        background-color: rgb(22, 22, 91);
+        color: white;
+        width: 100%;
+    }
+    .nav{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 878px) {
+    .navbar{
+        background-color: rgb(22, 22, 91);
+        color: white;
+        width: 100%;
+    }
+    .nav{
+        /* width: 56rem;b */
+    }
+}
+
+
+.boxoffice{
+    margin: 20px 30px 20px 30px;
+}
+
+.tombols{
+    margin-left: 50px;
+}
